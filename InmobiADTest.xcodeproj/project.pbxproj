@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505D6465CE420C107482FDB0 /* Pods_InmobiADTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F327EE276893DC00C6EBE3A2 /* Pods_InmobiADTest.framework */; };
+		567965F5212A518E00D92ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 567965F4212A518E00D92ED6 /* AppDelegate.m */; };
+		567965FD212A518F00D92ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567965FC212A518F00D92ED6 /* Assets.xcassets */; };
+		56796600212A518F00D92ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567965FE212A518F00D92ED6 /* LaunchScreen.storyboard */; };
+		56796603212A518F00D92ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56796602212A518F00D92ED6 /* main.m */; };
+		5679660D212A518F00D92ED6 /* InmobiADTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5679660C212A518F00D92ED6 /* InmobiADTestTests.m */; };
+		56796618212A518F00D92ED6 /* InmobiADTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56796617212A518F00D92ED6 /* InmobiADTestUITests.m */; };
+		56796627212A523D00D92ED6 /* ADShowInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56796626212A523D00D92ED6 /* ADShowInViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56796609212A518F00D92ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567965E8212A518E00D92ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567965EF212A518E00D92ED6;
+			remoteInfo = InmobiADTest;
+		};
+		56796614212A518F00D92ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567965E8212A518E00D92ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567965EF212A518E00D92ED6;
+			remoteInfo = InmobiADTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		567965F0212A518E00D92ED6 /* InmobiADTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InmobiADTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567965F3212A518E00D92ED6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		567965F4212A518E00D92ED6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		567965FC212A518F00D92ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567965FF212A518F00D92ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56796601212A518F00D92ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56796602212A518F00D92ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56796608212A518F00D92ED6 /* InmobiADTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InmobiADTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5679660C212A518F00D92ED6 /* InmobiADTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InmobiADTestTests.m; sourceTree = "<group>"; };
+		5679660E212A518F00D92ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56796613212A518F00D92ED6 /* InmobiADTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InmobiADTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56796617212A518F00D92ED6 /* InmobiADTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InmobiADTestUITests.m; sourceTree = "<group>"; };
+		56796619212A518F00D92ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56796625212A523D00D92ED6 /* ADShowInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADShowInViewController.h; sourceTree = "<group>"; };
+		56796626212A523D00D92ED6 /* ADShowInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADShowInViewController.m; sourceTree = "<group>"; };
+		8FA47A394473E7FDCCB4A83D /* Pods-InmobiADTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InmobiADTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-InmobiADTest/Pods-InmobiADTest.release.xcconfig"; sourceTree = "<group>"; };
+		E0463F5ADAD1B6115FD1EC83 /* Pods-InmobiADTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InmobiADTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InmobiADTest/Pods-InmobiADTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F327EE276893DC00C6EBE3A2 /* Pods_InmobiADTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InmobiADTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567965ED212A518E00D92ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505D6465CE420C107482FDB0 /* Pods_InmobiADTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56796605212A518F00D92ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56796610212A518F00D92ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFC0C2A7E0242B2CE694D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F327EE276893DC00C6EBE3A2 /* Pods_InmobiADTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		567965E7212A518E00D92ED6 = {
+			isa = PBXGroup;
+			children = (
+				567965F2212A518E00D92ED6 /* InmobiADTest */,
+				5679660B212A518F00D92ED6 /* InmobiADTestTests */,
+				56796616212A518F00D92ED6 /* InmobiADTestUITests */,
+				567965F1212A518E00D92ED6 /* Products */,
+				6280D2895B647E0AD252E282 /* Pods */,
+				0AFC0C2A7E0242B2CE694D9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		567965F1212A518E00D92ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567965F0212A518E00D92ED6 /* InmobiADTest.app */,
+				56796608212A518F00D92ED6 /* InmobiADTestTests.xctest */,
+				56796613212A518F00D92ED6 /* InmobiADTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567965F2212A518E00D92ED6 /* InmobiADTest */ = {
+			isa = PBXGroup;
+			children = (
+				56796625212A523D00D92ED6 /* ADShowInViewController.h */,
+				56796626212A523D00D92ED6 /* ADShowInViewController.m */,
+				567965F3212A518E00D92ED6 /* AppDelegate.h */,
+				567965F4212A518E00D92ED6 /* AppDelegate.m */,
+				567965FC212A518F00D92ED6 /* Assets.xcassets */,
+				567965FE212A518F00D92ED6 /* LaunchScreen.storyboard */,
+				56796601212A518F00D92ED6 /* Info.plist */,
+				56796602212A518F00D92ED6 /* main.m */,
+			);
+			path = InmobiADTest;
+			sourceTree = "<group>";
+		};
+		5679660B212A518F00D92ED6 /* InmobiADTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5679660C212A518F00D92ED6 /* InmobiADTestTests.m */,
+				5679660E212A518F00D92ED6 /* Info.plist */,
+			);
+			path = InmobiADTestTests;
+			sourceTree = "<group>";
+		};
+		56796616212A518F00D92ED6 /* InmobiADTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56796617212A518F00D92ED6 /* InmobiADTestUITests.m */,
+				56796619212A518F00D92ED6 /* Info.plist */,
+			);
+			path = InmobiADTestUITests;
+			sourceTree = "<group>";
+		};
+		6280D2895B647E0AD252E282 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0463F5ADAD1B6115FD1EC83 /* Pods-InmobiADTest.debug.xcconfig */,
+				8FA47A394473E7FDCCB4A83D /* Pods-InmobiADTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567965EF212A518E00D92ED6 /* InmobiADTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5679661C212A518F00D92ED6 /* Build configuration list for PBXNativeTarget "InmobiADTest" */;
+			buildPhases = (
+				DD770E502079E174D2E4A761 /* [CP] Check Pods Manifest.lock */,
+				567965EC212A518E00D92ED6 /* Sources */,
+				567965ED212A518E00D92ED6 /* Frameworks */,
+				567965EE212A518E00D92ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InmobiADTest;
+			productName = InmobiADTest;
+			productReference = 567965F0212A518E00D92ED6 /* InmobiADTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56796607212A518F00D92ED6 /* InmobiADTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5679661F212A518F00D92ED6 /* Build configuration list for PBXNativeTarget "InmobiADTestTests" */;
+			buildPhases = (
+				56796604212A518F00D92ED6 /* Sources */,
+				56796605212A518F00D92ED6 /* Frameworks */,
+				56796606212A518F00D92ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5679660A212A518F00D92ED6 /* PBXTargetDependency */,
+			);
+			name = InmobiADTestTests;
+			productName = InmobiADTestTests;
+			productReference = 56796608212A518F00D92ED6 /* InmobiADTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56796612212A518F00D92ED6 /* InmobiADTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56796622212A518F00D92ED6 /* Build configuration list for PBXNativeTarget "InmobiADTestUITests" */;
+			buildPhases = (
+				5679660F212A518F00D92ED6 /* Sources */,
+				56796610212A518F00D92ED6 /* Frameworks */,
+				56796611212A518F00D92ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56796615212A518F00D92ED6 /* PBXTargetDependency */,
+			);
+			name = InmobiADTestUITests;
+			productName = InmobiADTestUITests;
+			productReference = 56796613212A518F00D92ED6 /* InmobiADTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567965E8212A518E00D92ED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Livesxu;
+				TargetAttributes = {
+					567965EF212A518E00D92ED6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					56796607212A518F00D92ED6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 567965EF212A518E00D92ED6;
+					};
+					56796612212A518F00D92ED6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 567965EF212A518E00D92ED6;
+					};
+				};
+			};
+			buildConfigurationList = 567965EB212A518E00D92ED6 /* Build configuration list for PBXProject "InmobiADTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 567965E7212A518E00D92ED6;
+			productRefGroup = 567965F1212A518E00D92ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567965EF212A518E00D92ED6 /* InmobiADTest */,
+				56796607212A518F00D92ED6 /* InmobiADTestTests */,
+				56796612212A518F00D92ED6 /* InmobiADTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567965EE212A518E00D92ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56796600212A518F00D92ED6 /* LaunchScreen.storyboard in Resources */,
+				567965FD212A518F00D92ED6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56796606212A518F00D92ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56796611212A518F00D92ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD770E502079E174D2E4A761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InmobiADTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567965EC212A518E00D92ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56796603212A518F00D92ED6 /* main.m in Sources */,
+				567965F5212A518E00D92ED6 /* AppDelegate.m in Sources */,
+				56796627212A523D00D92ED6 /* ADShowInViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56796604212A518F00D92ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5679660D212A518F00D92ED6 /* InmobiADTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5679660F212A518F00D92ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56796618212A518F00D92ED6 /* InmobiADTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5679660A212A518F00D92ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567965EF212A518E00D92ED6 /* InmobiADTest */;
+			targetProxy = 56796609212A518F00D92ED6 /* PBXContainerItemProxy */;
+		};
+		56796615212A518F00D92ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567965EF212A518E00D92ED6 /* InmobiADTest */;
+			targetProxy = 56796614212A518F00D92ED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		567965FE212A518F00D92ED6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				567965FF212A518F00D92ED6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5679661A212A518F00D92ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5679661B212A518F00D92ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5679661D212A518F00D92ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0463F5ADAD1B6115FD1EC83 /* Pods-InmobiADTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = InmobiADTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idata365.haochezu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5679661E212A518F00D92ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA47A394473E7FDCCB4A83D /* Pods-InmobiADTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = InmobiADTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idata365.haochezu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56796620212A518F00D92ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InmobiADTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.InmobiADTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InmobiADTest.app/InmobiADTest";
+			};
+			name = Debug;
+		};
+		56796621212A518F00D92ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InmobiADTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.InmobiADTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InmobiADTest.app/InmobiADTest";
+			};
+			name = Release;
+		};
+		56796623212A518F00D92ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InmobiADTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.InmobiADTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InmobiADTest;
+			};
+			name = Debug;
+		};
+		56796624212A518F00D92ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InmobiADTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Livesxu.InmobiADTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InmobiADTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567965EB212A518E00D92ED6 /* Build configuration list for PBXProject "InmobiADTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5679661A212A518F00D92ED6 /* Debug */,
+				5679661B212A518F00D92ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5679661C212A518F00D92ED6 /* Build configuration list for PBXNativeTarget "InmobiADTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5679661D212A518F00D92ED6 /* Debug */,
+				5679661E212A518F00D92ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5679661F212A518F00D92ED6 /* Build configuration list for PBXNativeTarget "InmobiADTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56796620212A518F00D92ED6 /* Debug */,
+				56796621212A518F00D92ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56796622212A518F00D92ED6 /* Build configuration list for PBXNativeTarget "InmobiADTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56796623212A518F00D92ED6 /* Debug */,
+				56796624212A518F00D92ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567965E8212A518E00D92ED6 /* Project object */;
+}
